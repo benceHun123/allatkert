@@ -1,0 +1,18 @@
+Készíts egy egyszerű weboldalt egy állatkert számára. 
+
+Felül legyen 2 menüpont: Kezdőlap és Állatok néven. A menüpontok mind a 2 oldalon legyenek láthatóak
+
+- A landing oldal tartalmazza a landing.json file tartalmát formázva.
+
+- Az állatok menüpont alatt legyenek az állatok felsorolva pici kártyákkal. 
+
+- A kártyákban szerepeljen az állat thumbnail képe, neve és hogy melyik részlegen található. (Pl. Afrika ház)
+
+- Az állat profilképe megegyezik a nagy képpel, ezért ez legyen css-el megoldva, hogy csak thumbnail méretben jelenjen itt meg. (Pl.: 100x100-as méret) Tailwindcss, Bootstrap és vanilla css is képes ezt css-ből megoldani background- propertikkel
+
+- Az adott kártyára kattintva jelenjen meg popup-ban az összes információ az állatról szépen beformázva. Legyen egy bezárás gomb is a bal felső sarokban. 
+
+A json file-ok az assets/json mappában találhatóak.
+
+A feladat megoldásához használhattok Bootstrap-ot, Tailwindcss-t vagy vanilla css-t, idő szűke
+miatt én min. bootstrap-et de inkább tailwindcss-t javaslom.

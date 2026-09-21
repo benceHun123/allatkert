@@ -1,0 +1,17 @@
+[
+  {
+    "image": "image1.jpg",
+    "title": "Fedezd fel az állatvilág csodáit!",
+    "description": "Találkozz különleges állatokkal, szerezz felejthetetlen élményeket, és tölts el egy izgalmas napot az egész családdal."
+  },
+  {
+    "image": "image2.jpg",
+    "title": "Egy nap tele élményekkel",
+    "description": "Ismerj meg lenyűgöző állatfajokat a világ minden tájáról."
+  },
+  {
+    "image": "image3.jpg",
+    "title": "Közelebb hozzuk a természetet",
+    "description": "Állatkertünk célja, hogy élményekkel, ismeretekkel és személyes találkozásokkal hozza közelebb az emberekhez az állatvilágot. Fedezd fel lakóinkat, vegyél részt programjainkon, és tölts el nálunk egy emlékezetes napot."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Simba",
+    "age": 8,
+    "location": "Afrikai szavanna – Oroszlánok kifutója",
+    "image_url": "../images/simba.jpg",
+    "description": "Simba egy kifejlett hím afrikai oroszlán. Nyugodt természetű, de etetéskor különösen aktív. Legkönnyebben a délelőtti órákban figyelhető meg a kifutó napos részén."
+  },
+  {
+    "name": "Mufasa",
+    "age": 6,
+    "location": "Afrikai szavanna – Oroszlánok kifutója",
+    "image_url": "../images/mufasa.jpg",
+    "description": "Nala egy kíváncsi és mozgékony nőstény afrikai oroszlán. Gyakran látható a kifutó magasabb pontjain, ahonnan szívesen figyeli a környezetét."
+  },
+  {
+    "name": "Philip",
+    "age": 4,
+    "location": "Sarkvidéki világ – Pingvinmedence",
+    "image_url": "../images/philip.jpg",
+    "description": "Pötty egy játékos pingvin, aki különösen szeret úszni és a gondozók közelében tartózkodni. A látványetetések során gyakran ő az egyik legaktívabb állat."
+  },
+  {
+    "name": "Oszkár",
+    "age": 12,
+    "location": "Trópusi ház – Papagájröpte",
+    "image_url": "../images/oscar.jpg",
+    "description": "Rio egy színes és intelligens papagáj. Szereti utánozni a környezetében hallott hangokat, és kíváncsian figyeli az állatkert látogatóit."
+  }
+]
