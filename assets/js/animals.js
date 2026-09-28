@@ -1,4 +1,4 @@
-/*async function loadAnimals() {
+async function loadAnimals() {
   try {
     const response = await fetch('../assets/json/animals.json');
     
@@ -44,34 +44,49 @@ function renderAnimals(animals) {
 
 }
 
-loadAnimals();*/
+loadAnimals();
 
-const content = document.querySelector(".content");
-
-fetch('./assets/json/animals.json')
-   .then(response => {
-       if (!response.ok) {
-           throw new Error("HTTP error " + response.status);
-       }
-       return response.json();
-   })
-   .then(json => {
-       json.forEach((element) => { 
-            const item = document.createElement("div");
-
-            card.classList.add("card");
-            
-            card.innerHTML=`
-            <div class='image'>${element.image_url}</div>
-            <div class='name'>${element.name}</div>
-            <div class='location'>${element.location}</div>
-
-            `
-            content.append(card);
-       });
-   })
-   .catch(function () {
-       console.log("nem sikerult a fajlt betolteni");
-   })
+//const content = document.querySelector(".content");
+//const fullcontent = document.querySelector(".show-full-content");
+//
+//function popUp(element){
+//    console.log(element);
+//}
+//fetch('../assets/json/animals.json')
+//   .then(response => {
+//       if (!response.ok) {
+//           throw new Error("HTTP error " + response.status);
+//       }
+//       return response.json();
+//   })
+//   .then(json => {
+//       json.forEach((element) => { 
+//            const card = document.createElement("div");
+//
+//            card.classList.add("card");
+//            
+//            let data = [
+//                "name": ${element.name},
+//                "age": ${element.age},
+//                "location": ${element.location},
+//                "description": ${element.description},
+//                "image_url": ${element.image_url}
+//            ]
+//
+//            card.setAttribute('onclick', `popUp('${element.name}', '${element.age}', '${element.location}', '${element.description}', '${element.image_url}')`);
+//            card.innerHTML=`
+//            <div class='image'>
+//                <img class="h-80 w-80 object-cover" src="${element.image_url}">
+//            </div>
+//            <div class='name'>${element.name}</div>
+//            <div class='location'>${element.location}</div>
+//
+//            `
+//            content.append(card);
+//       });
+//   })
+//   .catch(function () {
+//       console.log("nem sikerult a fajlt betolteni");
+//   })
 
    
